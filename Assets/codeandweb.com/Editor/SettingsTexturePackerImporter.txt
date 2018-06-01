@@ -1,0 +1,20 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Image/backgroud/BG4.tpsheet
+- Assets/Image/backgroud/BG3.tpsheet
+- Assets/Image/backgroud/BG1.tpsheet
+- Assets/Image/backgroud/BG2.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Image/backgroud/BG4.png
+- Assets/Image/backgroud/BG3.png
+- Assets/Image/backgroud/BG1.png
+- Assets/Image/backgroud/BG2.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 

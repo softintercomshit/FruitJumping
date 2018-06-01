@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F7A7AD28-65C2-CB47-DD41-23FA06D8DD60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;NO_GPGS;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\ScriptableObjectFactory.cs" />
+     <Compile Include="Assets\Editor\ScriptableObjectWindow.cs" />
+     <Compile Include="Assets\Fabric\Editor\CommonBuild\FabricCommonBuild.cs" />
+     <Compile Include="Assets\Fabric\Editor\FabricSetup.cs" />
+     <Compile Include="Assets\Fabric\Editor\FabricUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\AsyncV1.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\Parser.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\V1.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitController.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitInstallationChecker.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\PluginController.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunner.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunnerBuilder.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\Runner.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\Strings.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\TimeUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Editor.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Images\Loader.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\App.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\ImportedKit.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\KitStatus.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\Organization.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\Settings.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\Constants.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\OAuth\Client.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\Utils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Resources\Manager.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Animation\Driver.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ConflictResolutionPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\KitSelectionPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\LoginPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ManualInitializationPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\OrganizationsPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Page.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Render.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\InstructionsPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\PrefabPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\UpdatePage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ValidationPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\Info.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\FabricBuildEventAndroid.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\FabricPostBuildiOS.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\PostBuildiOS.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\AndroidBuildPropertiesManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\FabricAndroidPrebuild.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\PropertiesWriter.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\AssetCatalog.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\JsonParser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Elements.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Lexer.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Objects.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Parser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Sections.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Serializer.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Utils.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProject.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProjectData.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PlistParser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Custodian.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphLegacy.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphObject.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphResolver.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\FabricInstaller.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\FileUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicAnalyticsPinger.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateChecker.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\TimeoutWebClient.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\CrashlyticsSetup.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\Controller\Controller.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\CrashlyticsMenuItems.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\View\DashboardPage.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Info.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Postbuild\CrashlyticsPostBuildiOS.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\CocoaPodHelper.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\PostProcessor.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\CocoaPodHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSAndroidSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDependencies.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDocsUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSIOSSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSInstructionWindow.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSPostBuild.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSProjectSettings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSStrings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUpgrader.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUtil.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\NearbyConnectionUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\PlistBuddyHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Elements.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Lexer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Objects.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\PBXProject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Parser.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Sections.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Serializer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Utils.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\AdMobDependencies.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\DefaultResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\IResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\PlayServicesResolver.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\ResolverVer1_1.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\ResolverVer1_2.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\SampleDependencies.cs" />
+     <Compile Include="Assets\PlayServicesResolver\Editor\SettingsDialog.cs" />
+     <None Include="Assets\GooglePlayGames\Editor\Podfile.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Fabric\NOTICE.txt" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.AppleTV.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+ <Reference Include="JarResolverLib">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/PlayServicesResolver/Editor/JarResolverLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B52E82FD-1460-0095-F470-8350243A67E6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{E74AC830-B67D-4AD2-2BC3-472737DAB382}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

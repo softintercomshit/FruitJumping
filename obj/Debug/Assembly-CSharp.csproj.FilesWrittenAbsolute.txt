@@ -1,0 +1,81 @@
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/UnityEngine.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/UnityEditor.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Mono.Cecil.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Unity.DataContract.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/vietbrain2/Dropbox/Jump Nuts/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEditor.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Common.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Editor.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Security.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Stores.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Apple.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/winrt.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Mono.Cecil.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Unity.DataContract.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/developer/Ivan/Projects/FruitJumping/obj/Debug/Assembly-CSharp.dll
+/Users/developer/Ivan/Projects/FruitJumping/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Validator.dll
+/Users/developer/Ivan/Projects/FruitJumping/Temp/bin/Debug/Analytics.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/obj/Debug/Assembly-CSharp.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEditor.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/nunit.framework.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Analytics.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Validator.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Common.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Editor.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Security.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Stores.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Apple.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/winrt.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Newtonsoft.Json.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Mono.Cecil.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Unity.DataContract.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/ivan/Ivan/Projects/games/Unity/FruitJumping/Temp/bin/Debug/Assembly-CSharp.dll

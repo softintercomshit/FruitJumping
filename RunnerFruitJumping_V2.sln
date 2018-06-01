@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C267D61C-BBFF-37B6-5A5C-81CE6CCF1861}") = "RunnerFruitJumping_V2", "Assembly-CSharp-firstpass.csproj", "{85616EE2-A0E3-233E-A565-5E0AF5A91730}"
+EndProject
+Project("{C267D61C-BBFF-37B6-5A5C-81CE6CCF1861}") = "RunnerFruitJumping_V2", "Assembly-CSharp.csproj", "{DCB231EE-63C3-F05E-55FB-6317F3278116}"
+EndProject
+Project("{C267D61C-BBFF-37B6-5A5C-81CE6CCF1861}") = "RunnerFruitJumping_V2", "Assembly-CSharp-Editor.csproj", "{8E83DD75-BB7F-D16B-3115-079321983CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85616EE2-A0E3-233E-A565-5E0AF5A91730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85616EE2-A0E3-233E-A565-5E0AF5A91730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85616EE2-A0E3-233E-A565-5E0AF5A91730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85616EE2-A0E3-233E-A565-5E0AF5A91730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB231EE-63C3-F05E-55FB-6317F3278116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB231EE-63C3-F05E-55FB-6317F3278116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB231EE-63C3-F05E-55FB-6317F3278116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB231EE-63C3-F05E-55FB-6317F3278116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E83DD75-BB7F-D16B-3115-079321983CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E83DD75-BB7F-D16B-3115-079321983CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E83DD75-BB7F-D16B-3115-079321983CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E83DD75-BB7F-D16B-3115-079321983CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

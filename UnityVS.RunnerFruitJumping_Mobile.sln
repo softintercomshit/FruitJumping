@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RunnerFruitJumping_Mobile.CSharp.Plugins", "UnityVS.RunnerFruitJumping_Mobile.CSharp.Plugins.csproj", "{683593C3-D5DD-AD54-478D-C9BEB5D819E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RunnerFruitJumping_Mobile.CSharp", "UnityVS.RunnerFruitJumping_Mobile.CSharp.csproj", "{8656B17C-DC63-2EAD-C19D-A0C8722EF19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RunnerFruitJumping_Mobile.CSharp.Editor", "UnityVS.RunnerFruitJumping_Mobile.CSharp.Editor.csproj", "{A9B1A01A-4E4F-9426-71F9-B3AE10691615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683593C3-D5DD-AD54-478D-C9BEB5D819E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683593C3-D5DD-AD54-478D-C9BEB5D819E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683593C3-D5DD-AD54-478D-C9BEB5D819E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683593C3-D5DD-AD54-478D-C9BEB5D819E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8656B17C-DC63-2EAD-C19D-A0C8722EF19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8656B17C-DC63-2EAD-C19D-A0C8722EF19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8656B17C-DC63-2EAD-C19D-A0C8722EF19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8656B17C-DC63-2EAD-C19D-A0C8722EF19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B1A01A-4E4F-9426-71F9-B3AE10691615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B1A01A-4E4F-9426-71F9-B3AE10691615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B1A01A-4E4F-9426-71F9-B3AE10691615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B1A01A-4E4F-9426-71F9-B3AE10691615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

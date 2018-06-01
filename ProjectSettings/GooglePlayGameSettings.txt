@@ -1,0 +1,12 @@
+lastUpgrade=00934
+proj.pluginVersion=0.9.34
+proj.AppId=711799582446
+and.BundleId=com.stomstudio.FruitJumping
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0a%3c%21--%0aGoogle+Play+game+services+IDs.%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0a--%3e%0a%3cresources%3e%0a++%3cstring+name%3d%22app_id%22%3e711799582446%3c%2fstring%3e%0a++%3cstring+name%3d%22package_name%22%3ecom.stomstudio.FruitJumping%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_run1%22%3eCgkI7t2-1NsUEAIQAA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_run2%22%3eCgkI7t2-1NsUEAIQAQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_run3%22%3eCgkI7t2-1NsUEAIQAg%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_run4%22%3eCgkI7t2-1NsUEAIQAw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_run5%22%3eCgkI7t2-1NsUEAIQBA%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_high_score%22%3eCgkI7t2-1NsUEAIQBQ%3c%2fstring%3e%0a%3c%2fresources%3e
+and.ClientId=
+proj.requireGPlus=true
+android.SetupDone=true
+App.NearbdServiceId=479984506682
+android.NearbySetupDone=true
